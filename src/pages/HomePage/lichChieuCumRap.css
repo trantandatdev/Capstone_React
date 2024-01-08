@@ -1,0 +1,19 @@
+.cum_rap .ant-tabs-tab{
+    padding: 8px 10px !important;
+}
+.cum_rap .ant-tabs-nav{
+    width: 400px;
+}
+.cum_rap .ant-tabs-tab-btn{
+    width: 100%;
+}
+.cum_rap .ant-tabs-nav-operations{
+    display: none !important;
+}
+.ant-tabs-ink-bar{
+    background-color: green !important;
+}
+.cum_rap .ant-tabs-content{
+    overflow-y: scroll;
+    height: 100%;
+}

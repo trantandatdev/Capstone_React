@@ -1,0 +1,40 @@
+/* responsive */
+/* >lap */
+@media screen and (min-width: 1200px) {
+}
+/* lap */
+@media screen and (max-width: 1200px) {
+  .ant-layout .ant-table-content {
+    overflow-x: auto;
+  }
+  .ant-layout .ant-table-cell .xoa_sua {
+    align-items: center !important;
+    display: flex;
+  }
+}
+/* tap */
+@media screen and (max-width: 992px) {
+  .ant-layout .ant-table-content {
+    overflow-x: auto;
+  }
+  .ant-layout .ant-table-cell .xoa_sua {
+    align-items: center !important;
+    display: flex;
+  }
+  .ant-layout h2 {
+    font-size: 20px !important;
+  }
+}
+/* mobile */
+@media screen and (max-width: 576px) {
+  .ant-layout .ant-table-content {
+    overflow-x: auto;
+  }
+  .ant-layout .ant-table-cell .xoa_sua {
+    align-items: center !important;
+    display: flex;
+  }
+  .ant-layout h2 {
+    font-size: 20px !important;
+  }
+}

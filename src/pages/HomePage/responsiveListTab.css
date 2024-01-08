@@ -1,0 +1,108 @@
+/* responsive */
+/* >lap */
+@media screen and (min-width: 1200px) {
+  .content_tab_big {
+    display: block;
+  }
+  .content_tab_small {
+    display: none;
+  }
+  .cum_rap_big {
+    display: block;
+  }
+  .cum_rap_small {
+    display: none;
+  }
+}
+/* lap */
+@media screen and (max-width: 1200px) {
+  .content_tab_big {
+    display: block;
+  }
+  .content_tab_small {
+    display: none;
+  }
+  .cum_rap_big {
+    display: block;
+  }
+  .cum_rap_small {
+    display: none;
+  }
+  .content_tab_small .cum_rap_small img {
+    width: 100% !important;
+  }
+}
+/* tap */
+@media screen and (max-width: 992px) {
+  #lichchieurap h2 {
+    font-size: 20px !important;
+  }
+  .content_tab_big {
+    display: none;
+  }
+  .content_tab_small {
+    display: block;
+  }
+  .content_tab_small img {
+    width: 35px !important;
+  }
+  .ant-tabs-nav .ant-tabs-nav-wrap {
+    justify-content: space-evenly;
+  }
+  .cum_rap_big {
+    display: none;
+  }
+  .cum_rap_small {
+    display: block;
+  }
+  .content_tab_small .cum_rap_small img {
+    width: 100% !important;
+  }
+  .content_tab_small .cum_rap_small h3 {
+    font-size: 20px !important;
+  }
+  .content_tab_small .cum_rap_small button {
+    padding: 5px 10px !important;
+  }
+  .content_tab_small .cum_rap_small .content_time_movie {
+    grid-template-columns: 1fr 1fr !important;
+    gap: 20px;
+    margin-top: 20px !important;
+  }
+}
+/* mobile */
+@media screen and (max-width: 576px) {
+  #lichchieurap h2 {
+    font-size: 20px !important;
+  }
+  .content_tab_big {
+    display: none;
+  }
+  .content_tab_small {
+    display: block;
+  }
+  .content_tab_small img {
+    width: 35px !important;
+  }
+  .ant-tabs-nav .ant-tabs-nav-wrap {
+    justify-content: space-evenly;
+  }
+  .cum_rap_big {
+    display: none;
+  }
+  .cum_rap_small {
+    display: block;
+  }
+  .content_tab_small .cum_rap_small img {
+    width: 100% !important;
+  }
+  .content_tab_small .cum_rap_small button {
+    padding: 5px 10px !important;
+  }
+  .content_tab_small .cum_rap_small .content_time_movie {
+    grid-template-columns: 1fr !important;
+  }
+  .content_tab_small .cum_rap_small h3 {
+    font-size: 15px !important;
+  }
+}

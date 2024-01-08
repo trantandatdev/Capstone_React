@@ -1,0 +1,101 @@
+/* responsive */
+/* >lap */
+@media screen and (min-width: 1200px) {
+}
+/* lap */
+@media screen and (max-width: 1200px) {
+  .content_nav {
+    display: grid !important;
+    grid-template-columns: repeat(10, 1fr);
+    padding: 20px 10px !important;
+  }
+  header .content_nav div:nth-child(1) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  header .content_nav div:nth-child(2) {
+    display: block !important;
+    grid-column-start: 2;
+    grid-column-end: 8;
+    text-align: center;
+  }
+  header .content_nav div:nth-child(2) a {
+    margin: 10px 10px !important;
+  }
+  header .content_nav div:nth-child(3) {
+    grid-column-start: 8;
+    grid-column-end: 11;
+  }
+  header .content_nav div:nth-child(3) div:nth-child(1) {
+    display: flex !important;
+    /* margin-right: 10px !important; */
+  }
+  header .content_nav div:nth-child(3) div:nth-child(2) {
+    display: flex !important;
+  }
+}
+/* tap */
+@media screen and (max-width: 992px) {
+  .content_nav {
+    display: grid !important;
+    grid-template-columns: repeat(12, 1fr);
+    padding: 20px 10px !important;
+  }
+  header .content_nav div:nth-child(1) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  header .content_nav div:nth-child(2) {
+    display: block !important;
+    grid-column-start: 2;
+    grid-column-end: 8;
+    text-align: center;
+  }
+  header .content_nav div:nth-child(2) a {
+    margin: 10px 10px !important;
+  }
+  header .content_nav div:nth-child(3) {
+    grid-column-start: 8;
+    grid-column-end: 13;
+  }
+  header .content_nav div:nth-child(3) div:nth-child(1) {
+    display: flex !important;
+  }
+  header .content_nav div:nth-child(3) div:nth-child(2) {
+    display: flex !important;
+  }
+}
+/* mobile */
+@media screen and (max-width: 576px) {
+  .content_nav {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 20px 10px !important;
+  }
+  header .content_nav div:nth-child(1) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  header .content_nav div:nth-child(2) {
+    display: block !important;
+    grid-column-start: 2;
+    grid-column-end: 5;
+  }
+  header .content_nav div:nth-child(2) a {
+    margin: 10px 5px !important;
+  }
+  header .content_nav div:nth-child(3) {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    margin-top: 20px;
+  }
+  header .content_nav div:nth-child(3) div:nth-child(1) {
+    display: flex !important;
+  }
+  header .content_nav div:nth-child(3) div:nth-child(2) {
+    display: flex !important;
+  }
+}

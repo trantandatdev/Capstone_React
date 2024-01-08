@@ -1,0 +1,26 @@
+/* responsive */
+/* >lap */
+@media screen and (min-width: 1200px) {
+
+}
+/* lap */
+@media screen and (max-width: 1200px) {
+    .ant-layout-sider-collapsed{
+        max-width: 100px !important;
+        min-width: 100px !important;
+    }
+}
+/* tap */
+@media screen and (max-width: 992px) {
+    .ant-layout-sider-collapsed{
+        max-width: 100px !important;
+        min-width: 100px !important;
+    }
+}
+/* mobile */
+@media screen and (max-width: 576px) {
+    .ant-layout-sider-collapsed{
+        max-width: 60px !important;
+        min-width: 60px !important;
+    }
+}

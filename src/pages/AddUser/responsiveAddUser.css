@@ -1,0 +1,26 @@
+/* responsive */
+/* >lap */
+@media screen and (min-width: 1200px) {
+}
+/* lap */
+@media screen and (max-width: 1200px) {
+  .content_form {
+    padding: 0 !important;
+  }
+}
+/* tap */
+@media screen and (max-width: 992px) {
+  .content_form {
+    padding: 0 !important;
+  }
+}
+/* mobile */
+@media screen and (max-width: 576px) {
+  .content_form {
+    padding: 0 !important;
+  }
+  .form_design {
+    display: inline-block !important;
+    width: 100%;
+  }
+}
