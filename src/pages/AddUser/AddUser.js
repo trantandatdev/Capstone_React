@@ -20,6 +20,7 @@ const AddUser = () => {
       userServ
         .addUser(values)
         .then((res) => {
+          console.log(res)
           setTimeout(() => {
             navigate("/admin/manager-user");
           });

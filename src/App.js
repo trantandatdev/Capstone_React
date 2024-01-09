@@ -11,6 +11,7 @@ import UserManager from "./pages/UserManager/UserManager";
 import AddMovie from "./pages/AddMovie/AddMovie";
 import Tickets from "./pages/Booking/Tickets";
 import TicketProvider from "./pages/Booking/TicketsContext";
+
 import Register from "./pages/Register/Register";
 import Detail from "./pages/Detail/Detail";
 import AddUser from "./pages/AddUser/AddUser";
@@ -22,7 +23,7 @@ function App() {
     <>
       <TicketProvider>
         <Routes>
-          <Route element={<UserTemplate />} path="/">
+          <Route element={<UserTemplate />} path="/">                     
             <Route element={<HomePage />} index></Route>
           </Route>
           <Route element={<AdminTemplate />} path="/admin">
@@ -33,6 +34,7 @@ function App() {
             <Route path="edit-user/:taiKhoan" element={<EditUser />} />
           </Route>
           <Route element={<Login />} path="/login"></Route>
+          
           <Route element={<Register />} path="/register"></Route>
           <Route element={<Detail />} path="/detail/:maPhim"></Route>
           <Route element={<Tickets />} path="/tickets/:showtimeId" />
