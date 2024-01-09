@@ -35,8 +35,8 @@ const Detail = () => {
               <img
                 style={{
                   width: "100%",
-                  backgroundColor: "white",
-                  padding: "80px 20px",
+                  backgroundColor: "black",
+                  padding: "10px",
                 }}
                 src={detailMovie.hinhAnh}
                 alt=""
@@ -47,10 +47,13 @@ const Detail = () => {
               style={{
                 paddingLeft: "50px",
                 color: "white",
+                background:`linear-gradient(90deg, rgba(0,0,0,0.5102415966386555) 51%, rgba(255,254,254,0) 100%)`,
               }}
             >
               <h2 className="text-3xl">{detailMovie.tenPhim}</h2>
-              <p>{detailMovie.trailer}</p>
+              <a href={detailMovie.trailer}>
+                <p className="text-orange-400">{detailMovie.trailer}</p>
+              </a>
               <p>
                 Mô tả: <span>{detailMovie.moTa}</span>
               </p>
