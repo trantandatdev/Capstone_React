@@ -7,7 +7,7 @@ export const quanLyPhimSer = {
   },
 
   getAllMovie: () => {
-    return https.get("/api/QuanLyPhim/LayDanhSachPhim?maNhom=GP02");
+    return https.get("/api/QuanLyPhim/LayDanhSachPhim?maNhom=GP08");
   },
 
   deleteMovie: (maPhim) => {

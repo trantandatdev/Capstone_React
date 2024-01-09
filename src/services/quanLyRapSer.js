@@ -6,7 +6,7 @@ export const quanLyRapSer = {
   },
   getInfoShowTimesTheater: (maHeThongRap) => {
     return https.get(
-      `/api/QuanLyRap/LayThongTinLichChieuHeThongRap?maHeThongRap=${maHeThongRap}&maNhom=GP02`
+      `/api/QuanLyRap/LayThongTinLichChieuHeThongRap?maHeThongRap=${maHeThongRap}&maNhom=GP08`
     );
   },
   getInfoScheduleFilm: (maPhim) => {
